@@ -1,7 +1,7 @@
 ---
 declared-services:
   alchemy-service:
-    label: AlchemyAPI-r6
+    label: AlchemyAPI
     plan: free
 applications:
 - name: alchemylanguage-gui-am-wks-demo
