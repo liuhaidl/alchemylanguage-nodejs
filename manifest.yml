@@ -1,10 +1,10 @@
 ---
 declared-services:
   alchemy-service:
-    label: alchemy_api
+    label: AlchemyAPI-r6
     plan: free
 applications:
-- name: alchemy-language-demo
+- name: alchemylanguage-gui-am-wks-demo
   command: npm start
   memory: 512MB
   services:
