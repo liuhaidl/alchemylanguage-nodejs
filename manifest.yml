@@ -1,6 +1,6 @@
 ---
 declared-services:
-  alchemy-service:
+  AlchemyAPI:
     label: AlchemyAPI
     plan: free
 applications:
@@ -8,6 +8,6 @@ applications:
   command: npm start
   memory: 512MB
   services:
-  - alchemy-service
+  - AlchemyAPI
   env:
     NPM_CONFIG_PRODUCTION: false
